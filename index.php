@@ -31,9 +31,9 @@ $thresholds = [
 ];
 //These values provide a weight for each test, which is used in the overall AI likelihood score
 $weights = [
-    'excessRatio'         => 0.30, // AI often inflates with excess terminology
-    'typeTokenRatio'      => 0.12, // Good uniqueness indicator
-    'lexicalRichness'     => 0.12, // Penalizes flat AI vocab
+    'excessRatio'         => 0.26, // AI often inflates with excess terminology
+    'typeTokenRatio'      => 0.14, // Good uniqueness indicator
+    'lexicalRichness'     => 0.14, // Penalizes flat AI vocab
     'avgSentenceLength'   => 0.06, 
     'verbRatio'           => 0.08, 
     'adjRatio'            => 0.08, 
